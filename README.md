@@ -26,9 +26,9 @@ This process has been tested to work identically regardless of which version of 
  
 There are, however, some limitations:
 
-*While it should be sufficient for all the tutorials included in this repo, the virtual machine (VM) will not be as efficient or high-performing as a native solution.
-*The VM cannot support GPU for accelerated computing, even if you have one installed in your machine.
-*The VM is provisioned with limited RAM and hard disk memory, so might not be able to handle larger ML tasks.
+* While it should be sufficient for all the tutorials included in this repo, the virtual machine (VM) will not be as efficient or high-performing as a native solution.
+* The VM cannot support GPU for accelerated computing, even if you have one installed in your machine.
+* The VM is provisioned with limited RAM and hard disk memory, so might not be able to handle larger ML tasks.
 
 For these reasons, you may eventually consider a native solution working directly within OSX or Windows, or even create a separate partition on your machine to work directly in Linux. This might be beneficial or even necessary as we start to work on bigger problems in the workshop. However, you should start with this setup first, at least until you get familiar with the example problems and all the different packages.
 
