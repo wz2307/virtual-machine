@@ -168,13 +168,7 @@ This will completely erase the VM and all of its files. This might be necessary 
 
 # Syncing your work and submitting assignments
 
-Once you are done working with the notebooks, you should sync your changes back to Github. This will create a backup of your work and allow you to see your work on the Github site. Most importantly, this will be the method for turning in your lab work each week. Each week during Session A will have a programming lab assignment contained in one or more notebooks in that week's folder. To complete the lab you will go through the notebook(s), execute the code, and add any additional code required. Once you are done with the lab, you will:
-
-1. save the notebook(s)
-2. sync the changes with your Github account
-3. submit a **pull request** back to the main repository (dmc-2016/dmc), asking to merge all code. This pull request will serve as you 'handing in' the assignment, which will allow me to track everyone's work. Once I receive the pull request I will review your code, and possibly make comments and ask for revisions within the pull request comments section.
-
-Let's test this workflow by syncing the changes we just made to the week-1 notebook, and submit our first pull request.
+Once you are done working with the notebooks, you should sync your changes back to Github. This will create a backup of your work and allow you to see your work on the Github site. Let's test this workflow by syncing the changes we just made to the week-1 notebook.
 
 Whenever you make changes to any file within the repository folder, Github will register the change, and will track it in the Github Desktop program. To see the changes, make sure you have the correct repository selected in the left pane, and that the `Changes` button is selected on the top bar. If there are any changes in the repository this button will have a circle next to it.
 
