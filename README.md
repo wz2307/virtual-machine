@@ -114,7 +114,7 @@ but change the path depending on where you cloned the repo. To execute the comma
 
     vagrant up
 
-This will go through the initialization procedure and start up the VM. If this is the first time you are booting up, it will create a new VM in VirtualBox according to instructions in the `Vagrantfile` file, and then install all the software according to the instructions in the `bootstrap.sh` file. This can take some time, so wait until all the installation steps are complete before proceeding.
+This will go through the initialization procedure and start up the VM. If this is the first time you are booting up, it will create a new VM in VirtualBox according to instructions in the `Vagrantfile` file, and then install all the software according to the instructions in the `bootstrap.sh` file. This can take some time, so wait until all the installation steps are complete before proceeding. Also, **make sure that your computer stays connected to the internet during the entire process**.
 
 ![setup](images/setup01.png)
 
