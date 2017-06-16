@@ -27,15 +27,15 @@ echo "updating package information"
 apt-get -y update >/dev/null 2>&1
 
 echo "downloading anaconda"
-wget --progress=bar:force https://repo.continuum.io/miniconda/Miniconda2-latest-Linux-x86_64.sh -O /home/vagrant/anaconda.sh
+wget --progress=bar:force https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh -O /home/vagrant/anaconda.sh
 
 echo "installing anaconda"
-bash /home/vagrant/anaconda.sh -b -p /home/vagrant/anaconda2 #install anaconda
+bash /home/vagrant/anaconda.sh -b -p /home/vagrant/anaconda #install anaconda
 rm /home/vagrant/anaconda.sh #delete downloaded installation file
 echo "source /vagrant/export.sh" >> /home/vagrant/.bashrc #set anaconda as default python
-export PATH="/home/vagrant/anaconda2/bin:$PATH"
+export PATH="/home/vagrant/anaconda/bin:$PATH"
 
-conda_install "pil" pil
+# conda_install "pil" pil
 conda_install "seaborn" seaborn
 conda_install "scikit-learn" scikit-learn
 conda_install "jupyter" jupyter
