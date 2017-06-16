@@ -40,6 +40,9 @@ conda_install "seaborn" seaborn
 conda_install "scikit-learn" scikit-learn
 conda_install "jupyter" jupyter
 
+echo "installing nltk"
+pip install -U nltk
+
 # Theano
 install 'g++' g++ 
 conda_install "pydot" pydot-ng
