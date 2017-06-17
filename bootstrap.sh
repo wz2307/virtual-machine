@@ -40,8 +40,9 @@ conda_install "seaborn" seaborn
 conda_install "scikit-learn" scikit-learn
 conda_install "jupyter" jupyter
 
-echo "installing nltk"
-pip install -U nltk
+pip_install 'nltk' nltk
+pip_install 'jieba' jieba
+pip_install 'beautiful-soup', beautifulsoup4
 
 # Theano
 install 'g++' g++ 
