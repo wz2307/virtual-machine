@@ -1,0 +1,1 @@
+{"virtualbox":{"/home/vagrant/notebooks":{"guestpath":"/home/vagrant/notebooks","hostpath":"/Users/wenzhou/Documents/GitHub/virtual-machine/notebooks","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"/Users/wenzhou/Documents/GitHub/virtual-machine","disabled":false,"__vagrantfile":true}}}
